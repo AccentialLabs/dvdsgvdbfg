@@ -1,0 +1,42 @@
+.bottomLine {
+    width: 110%;
+    border-bottom: 1px solid #A9A055;
+    margin-left: -15px;
+}
+.leftIcon{
+    width: 15px;
+    float: left;
+    margin-right: -20px;
+}
+.fontSizeClass {
+    font-size: 15px;
+}
+.listColorsAndFont {
+    color: #2497AC;
+    font-size: 18px;
+}
+.marginTop20{
+    margin-top: 20px;
+}
+
+.marginBottom15{
+    margin-bottom: 15px;
+}
+#images img{
+    width: 100%;
+}
+#images {
+    margin-top: 10px;
+}
+#images .row{
+    margin-top: 10px;
+    text-align: center;
+}
+.col-xs-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.iconNoImage{
+    width: 50px !important;
+    vertical-align: middle;
+}

@@ -1,0 +1,50 @@
+.navmenu, .navbar-offcanvas {
+    width: 200px;
+}
+.navbar-default {
+    background-color: #2497AC;
+    border-color: #2497AC;
+}
+.navbar-default .navbar-toggle {
+    float: left;
+    margin-left: 15px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+.marginTop5 {
+    margin-top: 5px;
+}
+.centerLogo {
+    margin-right: 25px;
+}
+.centerLogoJezzy {
+    text-align: center;
+}
+.iconSearchJezzy{
+    margin-right: 14px;
+    float: right;
+}
+.marginFooterIcon{
+    margin-left: 23px;
+}
+.container {
+    margin-top: 51px;
+}
+.centerLogoJezzy img{
+    width: 37px;
+    margin-top: 5px;
+}
+
+.sizeLogo{
+    width: 77px !important; 
+}
+.navbar-default .navbar-toggle {
+    border-color: #2497AC;
+}
+
+.navbar-toggle {
+    padding: 0px 0px; 
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+}

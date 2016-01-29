@@ -1,0 +1,85 @@
+.bottomLine {
+    border-bottom: 1px solid #A9A055;
+}
+.marginTop10 {
+    margin-top: 10px;
+}
+.marginBotton8px {
+    margin-bottom: 8px;
+}
+.newAddressText {
+    text-align: center;
+    color: #2497AC;
+    font-size: 15px;
+}
+.newAddressInfo {
+    color: #2497AC;
+    font-size: 15px;
+}
+.marginTop15 {
+    margin-top: 15px;
+}
+.marginBottom10 {
+    margin-bottom: 10px;
+}
+.marginTop5 {
+    margin-top: 5px;
+}
+.marginBottom5 {
+    margin-bottom: 5px;
+}
+.lineNewAddress {
+    background: rgba(169, 160, 85, 0.66);
+    color: white;
+    text-align: center;
+    height: 35px;
+    padding: 5px;
+    margin-top: 30px;
+}
+.okNewAddress {
+    background: rgb(169, 160, 85);  
+    color: white;
+    text-align: center;
+    height: 35px;
+    padding: 5px;
+    margin-top: 10px;
+}
+input.transparent-input{
+    display: block;
+    background-color:transparent !important;
+    border:none !important;
+    width: 100%; 
+    height: 27px;
+}
+.unit { 
+    position: absolute; 
+    display: block; 
+    left: 16px;
+    top: 3px;
+    z-index: 9; 
+}
+.cep{
+     padding: 10px 10px 10px 40px; 
+}
+.endereco{
+     padding: 10px 10px 10px 72px; 
+}
+.complemento{
+     padding: 10px 10px 10px 100px;
+}
+.bairro{
+     padding: 10px 10px 10px 50px;
+}
+.numero{
+     padding: 10px 10px 10px 60px;
+}
+.cidade{
+     padding: 10px 10px 10px 55px; 
+}
+.estado{
+     padding: 10px 10px 10px 55px; 
+}
+.imageGoBack {
+    width: 20px;
+    float: left;
+}

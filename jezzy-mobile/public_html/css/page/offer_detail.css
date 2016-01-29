@@ -1,0 +1,54 @@
+.bottomLine {
+    width: 110%;
+    border-bottom: 1px solid #A9A055;
+    margin-left: -15px;
+}
+.offerDetalGeneral{
+    color: #2497AC;
+    font-size: 12px;
+}
+.imageOfferService{
+    width: 100%;
+}
+.row{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#unitTotalValue{
+    font-size: 20px;
+}
+.offerOff {
+    float: right;
+    background-color: #2497AC;
+    color: white;
+    border-radius: 20px;
+    width: 33%;
+    text-align: center;
+}
+.logoBussinessSize{
+    width: 100%;
+}
+.lastLineFill{
+    height: 50px;
+}
+.bussinessTitle{
+    font-size: 20px;
+}
+.colorGrey{
+    color: #b9b9b9;
+}
+.iconFooter{
+    width: 40px;
+}
+.okButtom {
+    color: white;
+    text-align: center;
+    background-color: #2497AC;
+    height: 40px;
+    padding-top: 12px;
+}
+.shareButtom {
+    background-color: #A79E50;
+    text-align: center;
+    height: 40px;
+}

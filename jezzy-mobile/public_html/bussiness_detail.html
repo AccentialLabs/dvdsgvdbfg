@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jezzy</title>
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/jasny-bootstrap/css/jasny-bootstrap.min.css">
+        <link rel="stylesheet" href="css/page/base.css">
+        <script src="lib/jquery/jquery-2.1.4.min.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="lib/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
+
+        <script src="lib/jquery-storage/jquery.cookie.js"></script>
+        <script src="lib/jquery-storage/jquery.storageapi.min.js"></script>
+        <script src="lib/jquery-storage/json2.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        
+        <link rel="stylesheet" href="css/page/bussiness_detail.css">
+    </head>
+    <body>
+        <nav id="myNavmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
+            <a class="navmenu-brand" href="#">Brand</a>
+            <ul class="nav navmenu-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+        <div class="navbar navbar-default navbar-fixed-top centerLogoJezzy">
+            <span class="centerLogo">
+                <img src="img/logo_login.PNG" class="marginTop5 sizeLogo" />
+            </span>
+            <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body">
+                <img src="img/icons/Menu.PNG" class="" />
+            </button>
+            <span class="iconSearchJezzy">
+                <img src="img/icons/Pesquisar.png" class="marginTop5" id="serarchIconTop"/>
+            </span>
+        </div>
+        <div class="container">
+            <div class="topBussinessDetail">  
+                <div class="row">
+                    <div class="col-xs-12">
+                        DADOS DA EMPRESA
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img src="img/icons/emrpesaSemLogo.PNG" class="noLogoBussiness"/>
+                    </div>
+                </div>
+                <div class="row bottomLine ">
+                    <div class="col-xs-12 bussinessNameDetail">
+                        DG BEAUTY
+                    </div>
+                </div>
+            </div>
+            <div class="bussinessInfo">  
+
+                <div class="row ">
+                    <div class="col-xs-12">
+                        informações sobre esta empresa vai aqui
+                    </div>
+                </div>
+                <div class="row bottomLine">
+                    <div class="col-xs-12">
+                        Endereço: Rua dos bobos, 00
+                    </div>
+                </div>
+                <div class="row bottomLine">
+                    <div class="col-xs-12">
+                        E-mail: contato@salão.com.br
+                    </div>
+                </div>
+                <div class="row bottomLine">
+                    <div class="col-xs-12">
+                        Telefone: (11) 98988 - 9898
+                    </div>
+                </div>
+                <div class="row bottomLine">
+                    <div class="col-xs-12">
+                        Horarios: das 9 as 18
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-xs-12">
+                        Mapa do local:
+                    </div>
+                </div>
+                
+                <div class="row mapAreaPlus">
+                    <div id="map"></div>
+                </div>
+            </div>  
+
+        </div>
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="navbar-inner navbar-content-center">
+                <div class="col-xs-6 otherBussinesButom">
+                    SELECIONAR<br />OUTRO
+                </div>
+                <div class="col-xs-6 okBussinesButom">
+                    OK
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script src="js/page/base.js"></script>
+    <script src="js/page/bussiness_detail.js"></script>
+</body>
+</html>

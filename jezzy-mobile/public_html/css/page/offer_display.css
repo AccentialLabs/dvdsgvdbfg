@@ -1,0 +1,41 @@
+.offerImageDisplay{
+    width: 100%;
+}
+.iconCardCheckout{
+    width: 33px;
+    float: right;
+    position: relative;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+.offerOldPrice{
+    font-size: 10px;
+    color: #9b9b9b;
+    text-decoration: line-through;
+    margin-left: 10px;
+    display: block;
+    margin-bottom: -5px;
+    margin-top: 8px;
+}
+.offerNewPrice{
+    color: #2497AC;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.col-xs-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 10px;
+}
+.borderLeft{
+    border-left: 1px solid #ABA14E;
+}
+.borderRight{
+    border-right: 1px solid #ABA14E;
+}
+.rowBorder{
+    border-bottom: 2px solid #ABA14E;
+}
+.col-xs-6 {
+    margin-bottom: 0px; 
+}

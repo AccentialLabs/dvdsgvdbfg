@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jezzy</title>
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/jasny-bootstrap/css/jasny-bootstrap.min.css">
+        <link rel="stylesheet" href="css/page/base.css">
+        <script src="lib/jquery/jquery-2.1.4.min.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="lib/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
+
+        <script src="lib/jquery-storage/jquery.cookie.js"></script>
+        <script src="lib/jquery-storage/jquery.storageapi.min.js"></script>
+        <script src="lib/jquery-storage/json2.js"></script>
+
+        <link rel="stylesheet" href="css/page/offer_detail.css">
+    </head>
+    <body>
+        <nav id="myNavmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
+            <a class="navmenu-brand" href="#">Brand</a>
+            <ul class="nav navmenu-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+        <div class="navbar navbar-default navbar-fixed-top centerLogoJezzy">
+            <span class="centerLogo">
+                <img src="img/logo_login.PNG" class="marginTop5 sizeLogo" />
+            </span>
+            <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body">
+                <img src="img/icons/Menu.PNG" class="" />
+            </button>
+            <span class="iconSearchJezzy">
+                <img src="img/icons/Pesquisar.png" class="marginTop5" id="serarchIconTop"/>
+            </span>
+        </div>
+        <div class="container offerDetalGeneral">
+
+            <div class="row">
+                <div class="col-xs-6">
+                    <img src="img/services/massagem.jpg" class="imageOfferService" />
+                </div>
+                <div class="col-xs-6">
+                    <div class="row">
+                        <div class="col-xs-12 " >
+                            <span class="offerOff">
+                                12%<br />OFF
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12" >
+                            <img src="img/icons/4.5.png" class="imageOfferService" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottomLine"></div>
+            <div class="row">
+                <div class="col-xs-6 colorGrey">
+                    Valor Unitário: <span id="unitValue">R$ 1000,00</span><br />
+                    Frete: <span id="unitSend">R$ 199,00</span><br />
+                    Parcela: <span id="unitParcel">12 x 120,00</span><br />
+                    Quantidade: <span id="unitQtde">4</span><br />
+                    Código: <span id="unitCode">345678</span><br />
+                </div>
+                <div class="col-xs-6">
+                    Valor Total: <br />
+                    <span id="unitTotalValue">R$ 1199,00</span><br />
+                    Opção: <span id="unitOption">Black</span>
+                </div>
+            </div>
+            <div class="bottomLine"></div>
+            <div class="row">
+                <div class="col-xs-12 colorGrey">
+                    Forma de pagamento: <span id="unitPaymentForm">Cartão de credito</span><br />
+                    Sistema de Pagamento Código: <span id="unitPaymentCode">76576464</span><br />
+                </div>
+            </div>
+            <div class="bottomLine"></div>
+            <div class="row">
+                <div class="col-xs-12 colorGrey">
+                    Endereço de entrega: <br />
+                    <span id="unitAddress">Rua Cubatão, 345 - São Paulo - SP</span><br />
+                    <span id="unitCEP">12345-098</span><br />
+                    Prazo entrega: <span id="unitDeliveryDays">2 dias</span><br />
+                </div>
+            </div>
+            <div class="bottomLine"></div>
+            <div class="row">
+                <div class="col-xs-8">
+                    <span class="bussinessTitle" id="unitBussinessTitle" >
+                        BG BEATY
+                    </span>
+                    <br />
+                    <span class="colorGrey">
+                        Day Spa Corpo Ddagua<br />
+                        Site: www.bgbeaty.com.br<br />
+                        Tel: (11) 98888-1122
+                    </span>
+
+                </div>
+                <div class="col-xs-4">
+                    <img src="img/icons/Imagens.PNG" class="logoBussinessSize"/>
+                </div>
+            </div>
+            <div class="row lastLineFill"></div>
+            <div class="row">
+                <div class="col-xs-6 shareButtom">
+                    <img src="img/icons/Compartilhar_branco.png" class="iconFooter" />
+                </div>
+                <div class="col-xs-6 okButtom" id="backToList">
+                    OK
+                </div>
+            </div>
+        </div>
+        
+            
+             
+<!--        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="navbar-inner navbar-content-center centerLogoJezzy">
+                <img src="img/icons/homeFooterIcon.PNG" class=""  id="footerHomeIconClick"/>
+                <img src="img/icons/offerFooterIcon.PNG" class="marginFooterIcon" id="footerOfferIconClick" />
+                <img src="img/icons/cardFooterIcon.PNG" class="marginFooterIcon" id="footerCardIconClick" />
+                <img src="img/icons/calendarFooterIcon.PNG" class="marginFooterIcon" id="footerCalendarIconClick" />
+                <img src="img/icons/feedNoticias.PNG" class="marginFooterIcon" id="footerFeedIconClick"/>
+            </div>
+        </nav>-->
+        <script src="js/page/base.js"></script>
+        <script src="js/page/offer_detail.js"></script>
+    </body>
+</html>

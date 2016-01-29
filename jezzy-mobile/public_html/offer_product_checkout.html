@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jezzy</title>
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/jasny-bootstrap/css/jasny-bootstrap.min.css">
+        <link rel="stylesheet" href="css/page/base.css">
+        <script src="lib/jquery/jquery-2.1.4.min.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="lib/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
+
+        <script src="lib/jquery-storage/jquery.cookie.js"></script>
+        <script src="lib/jquery-storage/jquery.storageapi.min.js"></script>
+        <script src="lib/jquery-storage/json2.js"></script>
+
+        <link rel="stylesheet" href="css/page/offer_product_checkout.css">
+    </head>
+    <body>
+        <nav id="myNavmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
+            <a class="navmenu-brand" href="#">Brand</a>
+            <ul class="nav navmenu-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+        <div class="navbar navbar-default navbar-fixed-top centerLogoJezzy">
+            <span class="centerLogo">
+                <img src="img/logo_login.PNG" class="marginTop5 sizeLogo" />
+            </span>
+            <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body">
+                <img src="img/icons/Menu.PNG" class="" />
+            </button>
+            <span class="iconSearchJezzy">
+                <img src="img/icons/Pesquisar.png" class="marginTop5" id="serarchIconTop"/>
+            </span>
+        </div>
+        <div class="container">
+            <div class="row bottomLine">
+                <div class="col-xs-2 firstLine">
+                    <img src="img/icons/Icon_-_Imagem_indisponivel.png" class="logoIcon" />
+                </div>
+                <div class="col-xs-8 firstLine">
+                    <span class="bussinessName">SPA DAY CORPO DAGUA</span>
+                    <span class="offerName">SPA DAY CORPO DAGUA</span>
+                </div>
+                <div class="col-xs-2 firstLine">
+                    <img src="img/icons/icone_fechar.png" class="closeIcon" />
+                </div>
+            </div>
+            <div class="row">
+<!--                <div class="col-xs-6">-->
+                    <img src="img/products/massagem.jpg" class="offerImgage" />
+                <!--</div>-->
+                <div class="col-xs-6 textInfoDetail">
+                    Valor unit.: <span class="unitValue" id="unitValue">R$ 1000,00</span><br />
+                    Frete: <span class="sendValue" id="sendValue">R$ 1000,00</span><br />
+                    Valor Total:<br /> <span class="totalValue" id="totalValue">R$ 1900,00</span>
+                    <span class="parcelsValue" id="parcelsValue">12 x de R$ 900,00</span>
+                </div>
+            </div>
+            <div class="row bottomLine">
+                <div class="col-xs-6 offerCode">
+                    Codigo: <span class="">xxxxxx</span><br />
+                    <button type="button" class="btn btn-primary btn-xs">op01</button>
+                    <button type="button" class="btn btn-primary btn-xs">op01</button>
+                    <button type="button" class="btn btn-primary btn-xs">op01</button>
+                </div>
+                <div class="col-xs-6 offerCode">
+                    Quantidade<br />
+                    <button type="button" class="btn btn-primary btn-xs textbuttom">+</button>
+                    <button type="button" class="btn btn-primary btn-xs textbuttomValue">2</button>
+                    <button type="button" class="btn btn-primary btn-xs textbuttom">-</button>
+                </div>
+            </div>
+            <div class="row bottomLine">
+                <div class="col-xs-12 addressInfo">
+                    Endereço de entrega:
+                    <span class="addressValue" id="addressValue">Rua Cubatão , 000. Paraiso - São Paulo SP</span>
+                    CEP: <span class="cepValue" id="cepValue">12345-789</span><br />
+                    <div class="deliverySchedule">
+                        Prazo de entrega: <span class="deliveryValue" id="deliveryValue">2 dias</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 addressInfo deliverySchedule">
+                    Forma de pagamento: <span class="deliveryValue" id="paymentForm">12 x sem juros</span>
+                </div>
+            </div>
+            <div class="row paymentRow">
+                <div class="col-xs-12  deliverySchedule">
+                    <img src="img/icons/pagamento_amex.png" class="paymentMethod" />
+                    <img src="img/icons/pagamento_boleto.png" class="paymentMethod marginLeftPayment" />
+                    <img src="img/icons/pagamento_diners.png" class="paymentMethod marginLeftPayment" />
+                    <img src="img/icons/pagamento_master.png" class="paymentMethod marginLeftPayment" />
+                    <img src="img/icons/pagamento_visa.png" class="paymentMethod marginLeftPayment" />
+                </div>
+            </div>
+            <div class="row bottonaddress">
+                <div class="col-xs-12">
+                    ADICIONAR ENDEREÇO
+                </div>
+            </div>
+            <div class="row bottonBuy">
+                <div class="col-xs-12">
+                    REALIZAR PAGAMENTO
+                </div>
+            </div>
+        </div>
+        <!--        <nav class="navbar navbar-default navbar-fixed-bottom">
+                    <div class="navbar-inner navbar-content-center centerLogoJezzy">
+                        <img src="img/icons/homeFooterIcon.PNG" class=""  id="footerHomeIconClick"/>
+                        <img src="img/icons/offerFooterIcon.PNG" class="marginFooterIcon" id="footerOfferIconClick" />
+                        <img src="img/icons/cardFooterIcon.PNG" class="marginFooterIcon" id="footerCardIconClick" />
+                        <img src="img/icons/calendarFooterIcon.PNG" class="marginFooterIcon" id="footerCalendarIconClick" />
+                        <img src="img/icons/feedNoticias.PNG" class="marginFooterIcon" id="footerFeedIconClick"/>
+                    </div>
+                </nav>-->
+        <script src="js/page/base.js"></script>
+        <script src="js/page/offer_product_checkout.js"></script>
+    </body>
+</html>

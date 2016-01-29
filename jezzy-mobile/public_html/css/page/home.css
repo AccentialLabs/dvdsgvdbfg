@@ -1,0 +1,52 @@
+.homeIconConf{
+    width: 35px;
+}
+.colorDark{
+    background-color: #58AAB9;
+    text-align: center;
+
+}
+.colorClear{
+    background-color: #78BDCA;
+    text-align: center;
+}
+.plusIcon{
+    width: 21px;
+    float: right;
+}
+.endSchedule{
+    font-size: 12px;
+    margin-top: 13px;
+    color: #A9A055;
+}
+.massagem{
+    background-image: url(../../img/services/massagem.jpg);
+}
+.imageService{
+    height: 85px;
+    color: #2497AC;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 0 0 2px #FFF;
+}
+.serviceInfoGeneral {
+    background-color: #2497AC;
+    color: white;
+}
+.font10px {
+    font-size: 10px;
+}
+.font12px {
+    font-size: 12px;
+}
+.calendarArea {
+    background-color: #78BDCA;
+    text-align: center;
+}
+.offerArea{
+    background-color: #58AAB9;
+    text-align: center;
+}
+.homeIconConfRight{
+    width: 35px;
+}

@@ -1,0 +1,111 @@
+.bottonBuy{
+    background: #A9A055;
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+.bottonaddress{
+    background: #A9A055;
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+.squereInput {
+    width: 30px;
+    height: 28px;
+    padding-top: 0px;
+}
+.btn-group-xs>.btn, .btn-xs {
+    font-size: 11px;
+    border-radius: 0px;
+    height: 28px;
+    width: 30px;
+}
+.btn-primary {
+    color: #2497AC;
+    background-color: rgba(51, 122, 183, 0);
+    border-color: #2e6da4;
+}
+.bussinessName {
+    display: block;
+    color: #2497AC;
+    font-size: 14px;
+}
+.offerName {
+    color: #b9b9b9;
+    font-size: 12px;
+}
+.bottomLine{
+    border-bottom: 1px solid #A9A055;
+}
+.closeIcon{
+    width: 30px;
+    margin-top: 5px;
+}
+.firstLine{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.logoIcon{
+    width: 37px;
+}
+.offerImgage{
+    width: 50%;
+    float: left;
+}
+.textInfoDetail{
+    font-size: 12px;
+    color: #b9b9b9;
+    margin-top: 5px;
+}
+.addressValue{
+    display: block;
+}
+.addressInfo{
+    color: #b9b9b9;
+}
+.totalValue{
+    display: block;
+    font-size: 20px;
+    color: #2497AC;
+}
+.addressValue{
+    font-size: 12px;
+}
+.offerCode{
+    color: #b9b9b9;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    text-align: center;
+}
+.textbuttom{
+    font-size: 15px;
+    font-weight: bold;
+}
+.deliverySchedule{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.deliveryValue{
+    font-weight: bold;
+    color: #2497AC;
+}
+.paymentRow{
+    text-align: center;
+}
+.paymentMethod{
+    width: 35px;
+}
+.marginLeftPayment{
+    margin-left: 10px;
+}
+.textbuttomValue:hover{
+    color: #2497AC;
+    background-color: rgba(51, 122, 183, 0);
+}

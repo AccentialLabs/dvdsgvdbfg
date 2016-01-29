@@ -1,0 +1,71 @@
+.bottomLine {
+    width: 100%;
+    border-bottom: 1px solid #A9A055;
+}
+.listColorsAndFont {
+    color: #2497AC;
+    font-size: 18px;
+}
+.logoBussinessSize {
+    width: 45px;
+    margin-bottom: 5px;
+}
+.informationLine {
+    font-size: 12px;
+    color: #64B7C6;
+    line-height: 1;
+    padding-left: 11px;
+}
+.fontSizeClass {
+    font-size: 15px;
+    text-align: center;
+}
+.marginTop10 {
+    margin-top: 10px;
+}
+.marginTop15 {
+    margin-top: 15px;
+}
+.marginTop20{
+    margin-top: 20px;
+}
+.marginBottom10 {
+    margin-bottom: 20px;
+}
+.marginBotton6px{
+    margin-bottom: 6px;
+}
+.marginBotton8px {
+    margin-bottom: 8px;
+}
+.marginBotton10{
+    margin-bottom: 10px;
+}
+.marginBotton5{
+    margin-bottom: 5px;
+}
+.colorLetter {
+    background-color: rgba(36, 151, 172, 0.22);
+    font-size: 20px;
+}
+.searchInput {
+    margin-top: 10px;
+    background-color: #DEF1F4 !important;
+    border: none !important;
+    margin-left: 40px;
+}
+.lineSearchField{
+    background-color: #DEF1F4;
+}
+.leftIcon {
+    float: left;
+    width: 17px;
+    margin-top: 0px;
+    margin-right: -20px;
+}
+.leftIconSearch {
+    float: left;
+    width: 17px;
+    margin-top: 12px;
+    margin-right: -20px;
+}

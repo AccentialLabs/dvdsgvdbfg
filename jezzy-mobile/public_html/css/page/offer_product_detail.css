@@ -1,0 +1,65 @@
+.imageProduct{
+    width: 100%;
+}
+.titleOffer{
+    display: block;
+    color: #2497AC;
+        font-size: 15px;
+    font-weight: bold;
+}
+.textOffer{
+    color: #9b9b9b;
+    font-size: 11px;
+}
+.offerOldPrice{
+    display: block;
+    color: #9b9b9b;
+    text-decoration: line-through;
+    font-size: 10px;
+}
+.offerNewPrice{
+    display: block;
+    color: #2497AC;
+    font-size: 18px;
+    margin-bottom: -8px;
+}
+.offerParcels{
+    font-size: 10px;
+    color: #9b9b9b;
+        display: block;
+}
+.rowBorderBotton{
+    margin-right: -15px;
+    margin-left: -15px;
+    border-bottom: 1px solid #A9A055;
+}
+.bottonBuy{
+    background: #A9A055;
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+    margin-top: 14px;
+    margin-bottom: 60px;
+}
+.bussinessLogo{
+    float: right;
+    width: 30%;
+}
+.squareOption{
+    display: inline;
+    font-size: 9px;
+    color: #2497AC;
+    border: 2px solid #2497AC;
+    margin-right: 5px;
+}
+.btn-group-xs>.btn, .btn-xs {
+    font-size: 11px;
+    border-radius: 0px;
+    height: 25px;
+}
+.btn-primary {
+    color: #2497AC;
+    background-color: rgba(51, 122, 183, 0);
+    border-color: #2e6da4;
+}

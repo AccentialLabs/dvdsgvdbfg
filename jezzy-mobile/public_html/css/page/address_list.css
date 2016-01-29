@@ -1,0 +1,55 @@
+.bottomLine {
+    width: 100%;
+    border-bottom: 1px solid #A9A055;
+}
+.logoBussinessSize {
+    width: 55px;
+}
+.listColorsAndFont {
+    color: #2497AC;
+    font-size: 18px;
+}
+.informationLine {
+    font-size: 12px;
+    color: #64B7C6;
+    line-height: 1;
+    padding-left: 11px;
+}
+.marginBottom10 {
+    margin-bottom: 10px;
+}
+.marginBotton8px {
+    margin-bottom: 8px;
+}
+.marginTop10 {
+    margin-top: 10px;
+}
+.marginTop15 {
+    margin-top: 15px;
+}
+.typeOfLocation{
+    font-size: 20px;
+}
+.streetOfAdreess{
+    display: block;
+    font-size: 15px;
+}
+.cepOfAdreess{
+    font-size: 15px;
+}
+.lineNewAddress {
+    background: rgba(169, 160, 85, 0.66);
+    color: white;
+    text-align: center;
+    height: 35px;
+    padding: 5px;
+    margin-top: 30px;
+}
+.okNewAddress {
+    background: rgb(169, 160, 85);  
+    color: white;
+    text-align: center;
+    height: 35px;
+    padding: 5px;
+    margin-top: 10px;
+}

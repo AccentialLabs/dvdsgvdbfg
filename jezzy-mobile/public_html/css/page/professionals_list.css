@@ -1,0 +1,51 @@
+.bottomLine {
+    width: 100%;
+    border-bottom: 1px solid #A9A055;
+    margin-top: 6px;
+}
+.listColorsAndFont {
+    color: #2497AC;
+    font-size: 18px;
+}
+.col-xs-12 {
+    margin-top: 6px;
+}
+.marginTop20{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.fontSizeClass {
+    font-size: 15px;
+}
+.textCenter {
+    text-align: center;
+}
+.leftIcon{
+    width: 15px;
+    float: left;
+    margin-right: -20px;
+}
+.informationLine {
+    font-size: 12px;
+    color: #9b9b9b;
+    line-height: 1;
+    padding-left: 11px;
+}
+.leftIcon{
+    width: 15px !important; 
+    float: left;
+    margin-right: -20px;
+}
+.imgeProfessional{
+    margin-top: 20px;
+}
+.profissionalName{
+    padding-left: 11px;
+    margin-top: 5px;
+}
+.marginBotton6px{
+    margin-bottom: 6px;
+}
+.correctList {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jezzy</title>
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/jasny-bootstrap/css/jasny-bootstrap.min.css">
+        <link rel="stylesheet" href="css/page/base.css">
+        <script src="lib/jquery/jquery-2.1.4.min.js"></script>
+        <script src="lib/jquery/jquery.base64.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="lib/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
+
+        <script src="lib/jquery-storage/jquery.cookie.js"></script>
+        <script src="lib/jquery-storage/jquery.storageapi.min.js"></script>
+        <script src="lib/jquery-storage/json2.js"></script>
+
+        <link rel="stylesheet" href="css/page/detalhe_servico.css">
+    </head>
+    <body>
+        <nav id="myNavmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
+            <a class="navmenu-brand" href="#">Brand</a>
+            <ul class="nav navmenu-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+        <div class="navbar navbar-default navbar-fixed-top centerLogoJezzy">
+            <span class="centerLogo">
+                <img src="img/logo_login.PNG" class="marginTop5 sizeLogo" />
+            </span>
+            <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body">
+                <img src="img/icons/Menu.png" class="" />
+            </button>
+            <span class="iconSearchJezzy">
+                <img src="img/icons/Pesquisar.png" class="marginTop5" id="serarchIconTop" />
+            </span>
+        </div>
+        <div class="container">
+            <div class="row textCenter fontSizeColorClass">
+                <div class="col-xs-12 fontSizeClass marginTop20">
+                    <img src="img/icons/ir_esquerda.png" class="leftIcon" id="historyBackPage"/>
+                    <span id="className"></span>
+                    <div class="bottomLine marginTop20"></div>
+                </div>
+            </div>
+            <div class="row serviceName">
+                <div class="col-xs-12">
+                    <span id="subclassName"></span>
+                </div>
+            </div>
+            <div class="row description">
+                <div class="col-xs-12" id="serviceDescription">
+                    Massagem feita com oleo de girassol Massagem feita com oleo de girassol Massagem feita com oleo de girassol Massagem feita com oleo de girassol     
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-7">
+                    <div class="row oldPrice">
+                        <div class="col-xs-12" id="serviceValueOld">
+                            R$ 1.000,00
+                        </div>
+                    </div>
+                    <div class="row newPrice">
+                        <div class="col-xs-12" id="serviceValueNew">
+                            R$ 900,00
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 durationTime">
+                            Aproximadamente <span id="serviceTime"></span> min
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-5">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img src="img/icons/Compartilhar.png" class="shareDetailService" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img src="img/icons/4.5.png" class="numberStars" />
+                        </div>
+                    </div>
+                    <div class="row numberVotes">
+                        <div class="col-xs-12">
+                            + 100 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row marginTop20">
+                <div class="col-xs-12 buttomBackgroundBrown">
+                    <button id="scheduleService" type="button" class="btn btn-info btn-lg btn-block">AGENDAR</button>    
+                </div>
+            </div>
+            <div class="listColorsAndFont">
+                <div class="row marginTop20">
+                    <div class="col-xs-12 lineBackgroundColored ">
+                        <div class="lineStyle">
+                            MASSAGEM ANTITRESS <img src="img/icons/ir_direita.png" class="plusIcon" />
+                        </div>
+                    </div>
+                    <div class="bottomLine"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 lineBackgroundColored">
+                        <div class="lineStyle">
+                            MASSAGEM TERAPEUTICA <img src="img/icons/ir_direita.png" class="plusIcon" />
+                        </div>
+                    </div>
+                    <div class="bottomLine"></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 lineBackgroundColored">
+                        <div class="lineStyle">
+                            SHIATSU <img src="img/icons/ir_direita.png" class="plusIcon" />
+                        </div>
+                    </div>
+                    <div class="bottomLine"></div>
+                    <!--PUT THIS ON THE LAST ONE-->
+                    <div class="bottomLineDown"></div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="navbar-inner navbar-content-center centerLogoJezzy">
+                <img src="img/icons/homeFooterIcon.PNG" class=""  id="footerHomeIconClick"/>
+                <img src="img/icons/offerFooterIcon.PNG" class="marginFooterIcon" id="footerOfferIconClick" />
+                <img src="img/icons/cardFooterIcon.PNG" class="marginFooterIcon" id="footerCardIconClick" />
+                <img src="img/icons/calendarFooterIcon.PNG" class="marginFooterIcon" id="footerCalendarIconClick" />
+                <img src="img/icons/feedNoticias.PNG" class="marginFooterIcon" id="footerFeedIconClick"/>
+            </div>
+        </nav>
+        <script src="js/page/base.js"></script>
+        <script src="js/page/detalhe_servico.js"></script>
+    </body>
+</html>

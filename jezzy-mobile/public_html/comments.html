@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jezzy</title>
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="lib/jasny-bootstrap/css/jasny-bootstrap.min.css">
+        <link rel="stylesheet" href="css/page/base.css">
+        <script src="lib/jquery/jquery-2.1.4.min.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+        <script src="lib/jasny-bootstrap/js/jasny-bootstrap.min.js"></script>
+
+        <script src="lib/jquery-storage/jquery.cookie.js"></script>
+        <script src="lib/jquery-storage/jquery.storageapi.min.js"></script>
+        <script src="lib/jquery-storage/json2.js"></script>
+
+        
+    </head>
+    <body>
+        <nav id="myNavmenu" class="navmenu navmenu-default navmenu-fixed-left offcanvas" role="navigation">
+            <a class="navmenu-brand" href="#">Brand</a>
+            <ul class="nav navmenu-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+        <div class="navbar navbar-default navbar-fixed-top centerLogoJezzy">
+            <span class="centerLogo">
+                <img src="img/logo_login.PNG" class="marginTop5 sizeLogo" />
+            </span>
+            <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body">
+                <img src="img/icons/Menu.PNG" class="" />
+            </button>
+            <span class="iconSearchJezzy">
+                <img src="img/icons/Pesquisar.png" class="marginTop5" id="serarchIconTop"/>
+            </span>
+        </div>
+        <div class="container">
+            <div class="row bottomLine" id="rowPageCompanys">
+                <div class="col-xs-12 newAddressText marginTop15 marginBottom10" id="companyListNames">
+                    NOME DO PRODUTO ou SERVIÇO
+                    <img src="img/icons/icone_fechar.png" class="imageGoBack" />
+                </div>
+            </div>
+            <div class="row bottomLine numberOfStarsLine" id="rowPageCompanys">
+                <div class="col-xs-12 newAddressInfo marginTop5 marginBottom5" id="companyListNames">
+                    <img src="img/icons/5.png" class="numberOfStars" />
+                </div>
+            </div>
+            <div class="row bottomLine" id="rowPageCompanys">
+                <div class="col-xs-12 newAddressInfo marginTop5 marginBottom5" id="companyListNames">
+                    <input class="form-control transparent-input titleComment" type='text' name='name' placeholder="Titulo do Comentario"  required>
+                </div>
+            </div>
+            <div class="row bottomLine" id="rowPageCompanys">
+                <div class="col-xs-12 newAddressInfo marginTop5 marginBottom5" id="companyListNames">
+                    <textarea class="textAreaOption"></textarea><span class="unit">Comentario:</span>
+                </div>
+            </div>
+           <div class="row socialRow">
+                <div class="col-xs-12">
+                    <img src="img/icons/social_fb.png" class="socialIcom"/>
+                    <img src="img/icons/social_instagran.png" class="socialIcom marginLeft10" />
+                    <img src="img/icons/social_plus.png" class="socialIcom marginLeft10" />
+                    <img src="img/icons/social_twitter.png" class="socialIcom marginLeft10" />
+                </div>
+            </div>
+            
+            <div class="row okNewAddress">
+                <div class="col-xs-12">
+                    OK
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--        <nav class="navbar navbar-default navbar-fixed-bottom">
+                <div class="navbar-inner navbar-content-center centerLogoJezzy">
+                    <img src="img/icons/homeFooterIcon.PNG" class=""  id="footerHomeIconClick"/>
+                    <img src="img/icons/offerFooterIcon.PNG" class="marginFooterIcon" id="footerOfferIconClick" />
+                    <img src="img/icons/cardFooterIcon.PNG" class="marginFooterIcon" id="footerCardIconClick" />
+                    <img src="img/icons/calendarFooterIcon.PNG" class="marginFooterIcon" id="footerCalendarIconClick" />
+                    <img src="img/icons/feedNoticias.PNG" class="marginFooterIcon" id="footerFeedIconClick"/>
+                </div>
+            </nav>-->
+    <script src="js/page/base.js"></script>
+    <script src="js/page/comments.js"></script>
+</body>
+</html>
